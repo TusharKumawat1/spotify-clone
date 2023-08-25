@@ -1,8 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-import AsideContainer from "./components/AsideContainer";
-import Footer from "./components/Footer";
+import AsideContainer from "../components/AsideContainer";
+import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

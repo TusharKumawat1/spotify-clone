@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import CardSkeleton from '../components/CardSkeleton'
+import CardSkeleton from '../../components/CardSkeleton'
 export default function page() {
     const [text, settext] = useState(false)
     const getAccessToken =async () => {
