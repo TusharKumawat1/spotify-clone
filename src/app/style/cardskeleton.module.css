@@ -1,0 +1,22 @@
+.skeletonContainer{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 300px;
+    align-items: center;
+    background-color: #1b1b1b;
+    border-radius: 7px;
+    margin: 10px;
+    gap: 20px;
+}
+.skeletonImg{
+    margin-block:10px ;
+    position: relative;
+    width: 170px;
+    height: 200px;
+}
+.skeletonText{
+    margin-bottom: 5px;
+    width: 170px;
+}

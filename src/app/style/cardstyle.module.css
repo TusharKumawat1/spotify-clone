@@ -1,0 +1,57 @@
+.card{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 300px;
+    align-items: center;
+    background-color: #1b1b1b;
+    border-radius: 7px;
+    margin: 10px;
+    cursor: pointer;
+   }
+   .card:hover{
+    background-color: #272727
+   }
+   .imgcontainer{
+    margin-block:10px ;
+    position: relative;
+    width: 170px;
+    height: 200px;
+    
+   }
+   .img{
+    object-fit: cover;
+    border-radius: 5px;
+   
+   }
+   .card h2{
+      width: 150px;
+    margin-block: 10px;
+    font-size: 18px;
+    color: #fff;
+   }
+   .desc{
+    color: #bbb;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 150px;
+   }
+   .playicon{
+    padding: 20px;
+    border-radius: 50%;
+    width: 60px;
+    border: none;
+    background-color: #14ce45;
+    text-align: center;
+    font-size: 1.3rem;
+    position:absolute;
+    bottom: 5px;
+    right: 10px;
+    opacity: 0;
+    transition: 0.5s ease;
+   }
+   .card:hover .playicon{
+    opacity: 1;
+    bottom: 10px;
+   }
