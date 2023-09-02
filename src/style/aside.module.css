@@ -1,7 +1,8 @@
 .AsideContainer{
     display: flex;
     flex-direction: column;
-    width: 29%;
+    width: 35%;
+    height: 99vh;
     position: sticky;
     top:0px;
     margin: 5px;
@@ -51,7 +52,7 @@
     flex-direction: column;
     gap: 10px;
     background-color: #272727;
-    height: 150px;
+    min-height: 150px;
     border-radius: 12px;
     width: 98%;
     margin-left: 4px;
@@ -88,7 +89,7 @@
     cursor: pointer;
    }
   .footer{
-    margin-top: 300px;
+    margin-top: 180px;
   }
    .footerContent,.access,.cookies{
     display: flex;
@@ -119,4 +120,8 @@
    .cookies:hover{
     border-bottom: .1px solid #fff;
    }
-   
+   @media screen and (max-width: 1780px) {
+    .AsideContainer{
+      width: 45%;
+    }
+  }

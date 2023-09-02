@@ -111,4 +111,9 @@
     gap: 10px;
     flex-wrap: wrap;
    }
- 
+   @media screen and (max-width: 1780px) {
+      .playlistcontainer{
+         gap: 20px;
+         justify-content: space-evenly;
+      }
+    }
