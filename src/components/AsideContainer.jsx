@@ -12,12 +12,12 @@ export default function AsideContainer() {
         <h1><i class="fas fa-notes-medical"></i>&nbsp;&nbsp; Your Library</h1>
         <div className={styles.section}>
             <h2>Create your first playlist</h2>
-            <p>It's easy,We'll help you</p>
+            <p>It&apos;s easy,We&apos;ll help you</p>
             <button className={styles.btn}>Create playlist</button>    
         </div>
         <div className={styles.section}>
-            <h2>Let's find some podcast to follow</h2>
-            <p>we'll keep you update on new episode</p>
+            <h2>Let&apos;s find some podcast to follow</h2>
+            <p>we&apos;ll keep you update on new episode</p>
             <button className={styles.btn}>Browse podcast</button>    
         </div>
         <div className={styles.footer}>

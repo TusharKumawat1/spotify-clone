@@ -49,7 +49,7 @@ export default function MainContainer() {
         <div className={styles.playlistcontainer}>
         {loading&&<CardSkeleton cards={10}/>}
         {playlist.map((data,i)=>{
-           return <Card data={data} i={i}/>
+           return <Card data={data} i={i} key={i}/>
         })}
           
         </div>
